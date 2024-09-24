@@ -1,0 +1,55 @@
+
+.cotainer{
+    display: grid;
+    grid-template-columns: 500px 600px;
+    grid-template-rows: 350px 150px;
+    gap:10px;
+    margin: 100px;
+    
+   
+}
+.Img{
+    margin: 2px;
+    grid-row: span 2;
+    padding-left:150px;
+}
+
+.about{
+    margin: 0px;
+    word-spacing: 5px;
+  
+}
+.image1{
+ width: 2ovw;
+ height: 72vh;
+    
+    
+}
+.social-icons{
+    margin: 0px;
+    grid-column: span1/2;
+   
+}
+.logo{
+    margin-right: 70px;
+}
+
+*{
+    background-color: black;
+      color: white;
+       font-family: "Caveat", cursive;
+      font-optical-sizing: auto;
+      font-weight:400 px;
+       font-style: normal;
+       margin: 0;
+       padding: 0;
+       background-image: url("./images/stars-472968_1280.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+    }
+
+.name{
+    color: red;
+}
